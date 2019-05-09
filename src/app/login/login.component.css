@@ -1,0 +1,39 @@
+form {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background: #eeeeee;
+  border-radius: 20px;
+}
+
+input#user, input#password {
+  outline: 0;
+  font-size: 20px;
+  padding: 5px 10px;
+  margin: 5px;
+  min-width: 300px;
+}
+
+input.button {
+  margin: 20px;
+  font-size: 30px;
+}
+
+button#submit {
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
