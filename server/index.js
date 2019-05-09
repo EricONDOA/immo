@@ -27,8 +27,6 @@ app.post('/api/auth', async (req, res) => {
     console.log('login user in');
     res.send(resp);
   }
-
-
 });
 
 app.get('/api/clients', async (req, res) => {
